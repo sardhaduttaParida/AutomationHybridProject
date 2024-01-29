@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TutorialsNinja Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tutourialsninja.qa.listeners.Mylisteners"/>
+  </listeners>
+  <test thread-count="5" name="TutorialsNinja Tests(failed)">
+    <classes>
+      <class name="com.tutourialsninja.qa.testcases.SearchTest">
+        <methods>
+          <include name="verifySearchWithValidProduct"/>
+          <include name="tearDown"/>
+          <include name="verifySearchWithInvalidProduct"/>
+          <include name="setup"/>
+          <include name="verifySearchWithoutAnyProduct"/>
+        </methods>
+      </class> <!-- com.tutourialsninja.qa.testcases.SearchTest -->
+      <class name="com.tutourialsninja.qa.testcases.LoginTest">
+        <methods>
+          <include name="verifyLoginWithoutProvidingCredential"/>
+          <include name="verifyLoginWithinvalidCredential"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithValidEmailAndInvalidPassword"/>
+          <include name="verifyLoginWithInvalidEmailAndValidPassword"/>
+          <include name="verifyLoginWithValidCredential"/>
+        </methods>
+      </class> <!-- com.tutourialsninja.qa.testcases.LoginTest -->
+      <class name="com.tutourialsninja.qa.testcases.RegisterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyRegisteringAccountWithExistingEmailAddress"/>
+          <include name="teardown"/>
+          <include name="verifyRegisteringAccountByProvidingAllFielids"/>
+          <include name="verifyRegisteringAccountWithoutFillingAnyDetails"/>
+          <include name="verifyRegisteringAnAccountWithMandatoryFields"/>
+        </methods>
+      </class> <!-- com.tutourialsninja.qa.testcases.RegisterTest -->
+    </classes>
+  </test> <!-- TutorialsNinja Tests(failed) -->
+</suite> <!-- Failed suite [TutorialsNinja Automation Suite] -->

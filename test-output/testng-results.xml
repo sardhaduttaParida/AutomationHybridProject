@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-09T23:38:59 IST" name="Default suite" finished-at="2024-01-09T23:41:16 IST" duration-ms="137298">
+    <groups>
+    </groups>
+    <test started-at="2024-01-09T23:38:59 IST" name="Default test" finished-at="2024-01-09T23:41:16 IST" duration-ms="137298">
+      <class name="com.tutourialsninja.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:39:00 IST" name="setup" finished-at="2024-01-09T23:39:30 IST" duration-ms="30506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredential([Ljava.lang.Object;)[pri:1, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:39:30 IST" name="verifyLoginWithValidCredential" data-provider="supplyTestData" finished-at="2024-01-09T23:39:34 IST" duration-ms="4137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3bf54172]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredential -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:39:34 IST" name="teardown" finished-at="2024-01-09T23:39:35 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:39:35 IST" name="setup" finished-at="2024-01-09T23:39:55 IST" duration-ms="20012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithinvalidCredential()[pri:2, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:39:55 IST" name="verifyLoginWithinvalidCredential" finished-at="2024-01-09T23:39:58 IST" duration-ms="3909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithinvalidCredential -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:39:58 IST" name="teardown" finished-at="2024-01-09T23:39:59 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:39:59 IST" name="setup" finished-at="2024-01-09T23:40:18 IST" duration-ms="19207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:40:18 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-01-09T23:40:21 IST" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:40:21 IST" name="teardown" finished-at="2024-01-09T23:40:22 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:40:22 IST" name="setup" finished-at="2024-01-09T23:40:40 IST" duration-ms="18597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:40:40 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-01-09T23:40:44 IST" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:40:44 IST" name="teardown" finished-at="2024-01-09T23:40:44 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:40:44 IST" name="setup" finished-at="2024-01-09T23:41:11 IST" duration-ms="26804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutProvidingCredential()[pri:5, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:41:11 IST" name="verifyLoginWithoutProvidingCredential" finished-at="2024-01-09T23:41:16 IST" duration-ms="5032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredential -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutourialsninja.qa.testcases.LoginTest@77c2494c]" started-at="2024-01-09T23:41:16 IST" name="teardown" finished-at="2024-01-09T23:41:16 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutourialsninja.qa.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
